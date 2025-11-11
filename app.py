@@ -22,9 +22,13 @@ RUN:
 """
 
 # ---- HuggingFace / TensorFlow fix for Python 3.13 ----
+from transformers import pipeline
+# ------------------- Python 3.13 HuggingFace Fix -------------------
 import os
 os.environ["TRANSFORMERS_NO_TF"] = "1"
 os.environ["TRANSFORMERS_NO_FLAX"] = "1"
+# -------------------------------------------------------------------
+
 # ------------------------------------------------------
 
 import threading
