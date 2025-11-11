@@ -21,7 +21,12 @@ RUN:
   streamlit run app.py
 """
 
+# ---- HuggingFace / TensorFlow fix for Python 3.13 ----
 import os
+os.environ["TRANSFORMERS_NO_TF"] = "1"
+os.environ["TRANSFORMERS_NO_FLAX"] = "1"
+# ------------------------------------------------------
+
 import threading
 from datetime import datetime
 from typing import List, Dict, Tuple
