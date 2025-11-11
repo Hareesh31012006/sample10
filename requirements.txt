@@ -1,0 +1,44 @@
+# Core
+numpy
+pandas
+scikit-learn
+
+# Deep Learning
+torch
+tensorflow
+
+# Finance APIs
+yfinance
+alpha_vantage
+
+# News APIs / Scrapers
+gnews
+newsapi-python
+tweepy
+
+# NLP
+textblob
+transformers
+sentencepiece
+accelerate
+
+# Dashboard / API
+streamlit
+flask
+
+# Database
+psycopg2-binary       # PostgreSQL
+pymongo               # MongoDB
+
+# Backtesting
+backtrader
+zipline-reloaded
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+requests
+tqdm
+python-dotenv
